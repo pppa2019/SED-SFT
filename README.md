@@ -73,10 +73,14 @@ This implementation is based on:
 If you find this work useful, please cite:
 
 ```bibtex
-@article{sed-sft,
-  title={SED-SFT: Selectively Encouraging Diversity in Supervised Fine-Tuning},
-  author={Yijie Chen, Yijin Liu, Fandong Meng},
-  year={2026}
+@misc{chen2026sedsftselectivelyencouragingdiversity,
+      title={SED-SFT: Selectively Encouraging Diversity in Supervised Fine-Tuning}, 
+      author={Yijie Chen and Yijin Liu and Fandong Meng},
+      year={2026},
+      eprint={2602.07464},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2602.07464}, 
 }
 ```
 
