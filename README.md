@@ -47,11 +47,14 @@ bash train_scripts/train_cumsum_numina.sh
 ├── sft_trainer_v2.py           # Custom SFT trainer with multiple loss functions
 ├── preprocess_data.py          # Data preprocessing and tokenization
 ├── requirements.txt            # Python dependencies
+├── data/                    
+│   ├── math_train_data_filtered_qwen25_revised.parquet # rl training data
 ├── configs/                    # DeepSpeed configurations
 │   ├── zero2.json
 │   └── zero3.json
 ├── train_scripts/              # Training shell scripts
 │   ├── tokenize_data.sh
+│   ├── grpo_math-cumsum.sh
 │   └── train_cumsum_numina.sh
 └── utils/                      # Triton-optimized loss implementations
     ├── __init__.py
