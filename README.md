@@ -1,4 +1,6 @@
-# SED-SFT: Selectively Encouraging Diversity in Supervised Fine-Tuning
+# [SED-SFT: Selectively Encouraging Diversity in Supervised Fine-Tuning](https://arxiv.org/abs/2602.07464)
+
+🎉 \[2026-4\] Accepted by ACL 2026 Main (Short Paper)
 
 ## Overview
 We propose SED-SFT, which adaptively encourages diversity based on the token exploration space. This framework introduces a selective entropy regularization term with a selective masking mechanism into the optimization objective. Extensive experiments across eight mathematical benchmarks demonstrate that SED-SFT significantly enhances generation diversity with a negligible computational overhead increase compared with CE loss.
